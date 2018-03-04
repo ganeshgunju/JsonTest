@@ -12,6 +12,8 @@
 		CF3D466A203EC6C70017C8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3D4668203EC6C70017C8DB /* Main.storyboard */; };
 		CF3D466C203EC6C70017C8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3D466B203EC6C70017C8DB /* Assets.xcassets */; };
 		CF3D466F203EC6C70017C8DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3D466D203EC6C70017C8DB /* LaunchScreen.storyboard */; };
+		CF3D4677203EC9D20017C8DB /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D4676203EC9D20017C8DB /* HeroViewController.swift */; };
+		CF3D4679203ECC030017C8DB /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D4678203ECC030017C8DB /* Details.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CF3D466B203EC6C70017C8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF3D466E203EC6C70017C8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF3D4670203EC6C70017C8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3D4676203EC9D20017C8DB /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		CF3D4678203ECC030017C8DB /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				CF3D4664203EC6C70017C8DB /* AppDelegate.swift */,
 				CF3D4666203EC6C70017C8DB /* ViewController.swift */,
+				CF3D4676203EC9D20017C8DB /* HeroViewController.swift */,
+				CF3D4678203ECC030017C8DB /* Details.swift */,
 				CF3D4668203EC6C70017C8DB /* Main.storyboard */,
 				CF3D466B203EC6C70017C8DB /* Assets.xcassets */,
 				CF3D466D203EC6C70017C8DB /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				CF3D4667203EC6C70017C8DB /* ViewController.swift in Sources */,
 				CF3D4665203EC6C70017C8DB /* AppDelegate.swift in Sources */,
+				CF3D4679203ECC030017C8DB /* Details.swift in Sources */,
+				CF3D4677203EC9D20017C8DB /* HeroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
